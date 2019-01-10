@@ -124,6 +124,11 @@ nav span {
     color: rgb(155, 152, 152);
     display: inline-block;
 }
+
+nav span:hover {
+    color: white;
+}
+
 .label {
     display: block;
 }
@@ -346,10 +351,10 @@ section {
     width: 750px;
     height: 300px;
     background-color: rgba(255, 255, 255, 0.733);
-    margin-top: 13em;
-    margin-left: -3.2em;
+    margin-top: 3em;
+    margin-left: -50em;
     border-radius: 10px;
-    /* border-left: 45px solid #2486e2; */
+    
 }
 
 .slide-box h4 {
@@ -362,6 +367,7 @@ section {
     margin-left: 10em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-bottom: 5px solid #2486e2;
 }
 .slide-box p {
     padding-top: 25px;
@@ -371,7 +377,67 @@ section {
     word-wrap: break-word;
     max-width: 100%;
     text-align: left;
-    border-left: 1px solid #2486e2;
+}
+.slide-box2 {
+    width: 750px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-top: 3em;
+    margin-left: 1.5em;
+    border-radius: 10px;
+}
+
+.slide-box2 h4 {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+    background: #1a1919;
+    margin-left: 10em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 5px solid #2486e2;
+}
+.slide-box2 p {
+    padding-top: 25px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-wrap: break-word;
+    max-width: 100%;
+    text-align: left;
+}
+.slide-box3 {
+    width: 750px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-top: -18.5em;
+    margin-right: -50em;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.slide-box3 h4 {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+    background: #1a1919;
+    margin-left: 10em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 5px solid #2486e2;
+}
+.slide-box3 p {
+    padding-top: 25px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-wrap: break-word;
+    max-width: 100%;
+    text-align: left;
 }
 
 
