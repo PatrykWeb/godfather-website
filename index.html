@@ -1,5 +1,5 @@
 <!-- Strona internetowa jest autorstwa Azuro/Soprano
-, zabrania się jej publikacji względów własnego użytku. Prawa autorskie są zastrzeżone. -->
+, zabrania się jej publikacji względem własnego użytku. Prawa autorskie są zastrzeżone. -->
 
 
 <!DOCTYPE html>
@@ -14,7 +14,6 @@
     <script src="node_modules/typed.js/src/typed.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/preloader.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
@@ -23,22 +22,22 @@
 </head>
 <header>
     <div class="container-menu">
-        <nav>
+        <nav id = "animateNav">
                 <a class="home" href="http://pyamid.pl/">
                     STRONA
-                    <span class="label">Główna</span>
+                    <span class="label" id = "labelMain">Główna</span>
                 </a>
                 <a class="connect" href="http://pyamid.pl/forum/">
                         POŁĄCZ
-                        <span class="label">Forum</span>
+                        <span class="label" id = "labelForum">Forum</span>
                     </a>
                     <a class="social" href="https://discord.gg/4N4yJcM">
                             SOCJALE
-                            <span class="label">Discord</span>
+                            <span class="label" id = "labelDiscord">Discord</span>
                         </a>
                         <a class="status" href="https://servers.fivem.net/#/servers/detail/54.36.185.228:30120">
                                 STATUS SERVERA
-                                <span class="label">Online</span>
+                                <span class="label" id = "labelOnline">Online</span>
                             </a>
                             <i class="fa fa-gamepad" style="font-size:19px"></i>
                             <a class="icon-fb" href="https://www.facebook.com/Pyamid-RolePlay-334677680609813/"><i class="fa fa-facebook" style="font-size:20px"></i></a>
@@ -144,7 +143,7 @@
         </script>
         <script src="js/slider.js"></script>
         <script src="js/arrow.js"></script>
-        <script src="js/preloader.js"></script>
+        <script src="js/animate.js"></script>
 </body>
 </div>
 </html>
