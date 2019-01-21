@@ -11,8 +11,9 @@ function scrollNav() {
     let labelOnline = document.getElementById('labelOnline');
     let logoPyamid = document.querySelector('.logo-img');
     let iconFb = document.querySelector('.icon-fb');
+    let changeLog = document.querySelector('#change-log');
     let ypos = window.pageYOffset;
-    console.log(ypos);
+    // console.log(ypos);
         if(ypos > 200) {
             navAnimate.style.height = 60 + "px";
             labelMain.style.display = "none";
@@ -23,6 +24,7 @@ function scrollNav() {
             logoPyamid.style.marginTop = 3 + "px";
             iconFb.style.marginTop = 20 + "px";
             navAnimate.style.backgroundColor = colorBlack;
+            changeLog.style.marginTop = 19 + "px";
         } else {
             navAnimate.style.height = 80 + "px";
             labelMain.style.display = "block";
@@ -32,6 +34,7 @@ function scrollNav() {
             logoPyamid.style.width = 80 + "px";
             navAnimate.style.backgroundColor = defaultColorNav;
             iconFb.style.marginTop = 30 + "px";
+            changeLog.style.marginTop = 27 + "px";
 
         }
 };
