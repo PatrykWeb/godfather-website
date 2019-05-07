@@ -62,7 +62,7 @@ body {
 }
 
 .status span {
-    color: rgb(97, 247, 135);
+    color: #e9cc2b;
 }
 
 .container-menu a {
@@ -72,7 +72,7 @@ body {
 /*Mikołajkowe logo*/
 
 .logo-img {
-    width: 80px;
+    /* width: 60px; */
     height: auto;
 }
 
@@ -80,7 +80,7 @@ body {
     float: left;
     position: absolute;
     margin-left: 22em;
-    margin-top: -2.7em;
+    margin-top: -3.5em;
 
 }
 
@@ -165,7 +165,7 @@ section {
   .write-box h6 {
     color: #ffffffcb;
     margin-left: 39em;
-    border-bottom: 1px solid #2486e2;
+    border-bottom: 1px solid #e9cc2b;
     position: absolute;
     z-index: 1;
   }
@@ -217,13 +217,13 @@ section {
     padding-top: 15px;
 }
 .games-section span {
-    color: #2486e2;
+    color: #e9cc2b;
     font-weight: 400;
 }
 .border-gamesSection {
     margin-top: -3em;
     margin-left: 58em;
-    border: 1px solid #2486e2;
+    border: 1px solid #e9cc2b;
     position: absolute;
     width: 50px;
 }
@@ -370,7 +370,7 @@ section {
     margin-left: 10em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-bottom: 5px solid #2486e2;
+    border-bottom: 5px solid #eeb600;
 }
 .slide-box p {
     padding-top: 25px;
@@ -400,7 +400,7 @@ section {
     margin-left: 10em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-bottom: 5px solid #2486e2;
+    border-bottom: 5px solid #eeb600;
 }
 .slide-box2 p {
     padding-top: 25px;
@@ -438,7 +438,7 @@ section {
     margin-left: 10em;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-bottom: 5px solid #2486e2;
+    border-bottom: 5px solid #eeb600;
 }
 .slide-box3 p {
     padding-top: 25px;
@@ -449,81 +449,173 @@ section {
     max-width: 100%;
     text-align: left;
 }
+.connect3steps {
+    height: 500px;
+    background-color: white;
+}
+.connect3steps {
+    color: #1a1919;
+}
+.connect3steps h1 {
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-weight: 300;
+}
+.connect3steps p {
+    font-size: 23px;
+    font-weight: 300;
+    margin-left: 28em;
+    margin-top: 1em;
+} 
 
-#change-log:active,
-#change-log:focus,
-#change-log.active {
-  background-image: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+.borderConnect {
+    border: 1px solid #e9cc2b;
+    width: 100px;
+    margin-left: 56.7em;
+    margin-top: 1em;
 }
 
-#change-log {
-    width: 70px;
-    height: 20px;
-    border-bottom: 1px solid #0086b3;
-    margin-left: 51em;
-    margin-top: 2em;
+/* .dotgrey1 {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: rgb(146, 143, 143);
+    display: inline;
+    left: 58em;
     position: absolute;
-    background: rgba(255, 255, 255, 0);
-
+    margin-top: 10px;
 }
-#change-log p {
-    color:  white;
-    font-size: 13px;
-    margin-top: 1px;
-    text-transform: uppercase;
-    margin-left: 5.5px;
-    padding-top: -1.5px;
-    padding-left: -10px;
-}
-#changelog-description {
-    height: 700px;
-    width: 1000px;
-    background: rgba(255, 255, 255, 0.959);
-    border-radius: 10px;
-    margin-left: 30em;
-    margin-top: -1700px !important;
+.dotgrey2 {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: rgb(146, 143, 143);
+    display: inline;
+    left: 59em;
     position: absolute;
-    box-shadow: 0 6px 16px -6px black;
+    margin-top: 10px;
 }
-#textH1 {
+.dotgrey3 {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: rgb(146, 143, 143);
+    display: inline;
+    left: 60em;
+    position: absolute;
+    margin-top: 10px;
+} */
+.buyGta {
+    width: 360px;
+    height: 180px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 20em;
+    margin-top: 4em;
     color: white;
-    position: absolute;
-    margin-top: -55em;
-    margin-left: 30em;
-}
-#dotRed {
-    height: 15px;
-    width: 15px;
-    border-radius: 50px;
-    background-color: #ed222cb6;
-    position: absolute;
-    margin-top: -1688px;
-    margin-left: 492px;
-    z-index: 1;
-}
-#dotYellow {
-    height: 15px;
-    width: 15px;
-    border-radius: 50px;
-    background-color: #da9413b2;
-    margin-top: -1688px;
-    margin-left: 517px;
-    position: absolute;
-    z-index: 1;
-}
-#dotGreen {
-    height: 15px;
-    width: 15px;
-    border-radius: 50px;
-    background-color: #19ad63b4;
-    margin-top: -1688px;
-    margin-left: 542px;
-    z-index: 1;
+    border-left: 10px solid #e7d04f;
     position: absolute;
 }
+
+/* .buyGta:hover {
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
+} */
+
+.buyGta h1 {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: -5px;
+    position: absolute;
+    
+}
+.buyGta p1 {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 85px;
+    padding-left: 10px;
+    position: absolute;
+    
+}
+.buyGta img {
+    width: 115px;
+    margin-left: 230px;
+    margin-top: 45px;
+}
+.downoaldAlt {
+    width: 360px;
+    height: 180px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 50em;
+    margin-top: 4em;
+    position: absolute;
+    color: white;
+    border-left: 10px solid #e7d04f;
+}
+.downoaldAlt h1 {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: -5px;
+    position: absolute;
+    
+}
+.downoaldAlt p1 {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 85px;
+    padding-left: 10px;
+    position: absolute;
+    
+}
+.downoaldAlt svg {
+    width: 115px;
+    margin-left: 230px;
+    margin-top: 35px;
+    color: rgb(255, 255, 255)
+}
+.joinGodFather {
+    width: 360px;
+    height: 180px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 80em;
+    margin-top: 4em;
+    position: absolute;
+    color: white;
+    border-left: 10px solid #e7d04f;
+}
+.joinGodFather h1 {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 400;
+    margin-top: -5px;
+    position: absolute;
+    
+}
+.joinGodFather p1 {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 85px;
+    padding-left: 10px;
+    position: absolute;
+    
+}
+.joinGodFather img {
+    width: 115px;
+    margin-left: 230px;
+    margin-top: 35px;
+    color: rgb(255, 255, 255)
+}
+
+
 
 
 

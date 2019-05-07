@@ -1,0 +1,175 @@
+html, body {
+    height: 100%; }
+  
+  /* body {
+    background: #0a0a0a;
+    font-family: "Open Sans", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } */
+  
+  .preloader {
+    background-color: #0a0a0a;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    font-size: 10px;
+    -webkit-transition: opacity .35s easy;
+    transition: opacity .35s easy; }
+    .preloader img {
+      margin-left: 87em;
+      margin-top: 40em; }
+    .preloader svg {
+      margin-left: -13.5em; }
+    .preloader .whiteLine {
+      width: 4px;
+      height: 50px;
+      background-color: white;
+      margin-left: 89.2em;
+      margin-top: -10em;
+      -webkit-animation: whiteLine;
+      animation: whiteLine;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-play-state: running;
+      animation-play-state: running; }
+  
+  @-webkit-keyframes whiteLine {
+    0% {
+      height: 50px; }
+    50% {
+      height: 80px; } }
+  
+  @keyframes whiteLine {
+    0% {
+      height: 50px; }
+    50% {
+      height: 80px; } }
+    .preloader .whiteLeft {
+      width: 4px;
+      height: 50px;
+      background-color: white;
+      margin-left: 91.5em;
+      margin-top: -7.3em;
+      position: absolute;
+      -webkit-animation: whiteLine2;
+      animation: whiteLine2;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-play-state: running;
+      animation-play-state: running; }
+  
+  @-webkit-keyframes whiteLine2 {
+    0% {
+      height: 50px; }
+    50% {
+      height: 90px; } }
+  
+  @keyframes whiteLine2 {
+    0% {
+      height: 50px; }
+    50% {
+      height: 90px; } }
+    .preloader .whiteMiddle {
+      width: 4px;
+      height: 20px;
+      background-color: white;
+      margin-left: 94.5em;
+      margin-top: -7.7em;
+      position: absolute;
+      -webkit-animation: whiteMiddle;
+      animation: whiteMiddle;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-play-state: running;
+      animation-play-state: running; }
+  
+  @-webkit-keyframes whiteMiddle {
+    0% {
+      height: 20px; }
+    50% {
+      height: 35px; } }
+  
+  @keyframes whiteMiddle {
+    0% {
+      height: 20px; }
+    50% {
+      height: 35px; } }
+    .preloader .whiteMiddleRight {
+      width: 4px;
+      height: 62px;
+      background-color: white;
+      margin-left: 97.1em;
+      margin-top: -8.8em;
+      position: absolute;
+      -webkit-animation: whiteMiddleRight;
+      animation: whiteMiddleRight;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-play-state: running;
+      animation-play-state: running; }
+  
+  @-webkit-keyframes whiteMiddleRight {
+    0% {
+      height: 62px; }
+    50% {
+      height: 102px; } }
+  
+  @keyframes whiteMiddleRight {
+    0% {
+      height: 62px; }
+    50% {
+      height: 102px; } }
+    .preloader .whiteRight {
+      width: 4px;
+      height: 50px;
+      background-color: white;
+      margin-left: 99.6em;
+      margin-top: -9.8em;
+      position: absolute;
+      -webkit-animation: whiteRight;
+      animation: whiteRight;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-play-state: running;
+      animation-play-state: running; }
+  
+  @-webkit-keyframes whiteRight {
+    0% {
+      height: 50px; }
+    50% {
+      height: 80px; } }
+  
+  @keyframes whiteRight {
+    0% {
+      height: 50px; }
+    50% {
+      height: 80px; } }
+  
+  .preloader-hidding {
+    opacity: 0; }
+  
+  .preloader-hidden {
+    display: none !important; }
+  

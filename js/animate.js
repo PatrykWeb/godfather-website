@@ -20,7 +20,7 @@ function scrollNav() {
             labelForum.style.display = "none";
             labelDiscord.style.display = "none";
             labelOnline.style.display = "none";
-            logoPyamid.style.width = 65 + "px";
+            logoPyamid.style.width = 80 + "px";
             logoPyamid.style.marginTop = 3 + "px";
             iconFb.style.marginTop = 20 + "px";
             navAnimate.style.backgroundColor = colorBlack;
@@ -31,7 +31,7 @@ function scrollNav() {
             labelForum.style.display = "block";
             labelDiscord.style.display = "block";
             labelOnline.style.display = "block";
-            logoPyamid.style.width = 80 + "px";
+            logoPyamid.style.width = 100 + "px";
             navAnimate.style.backgroundColor = defaultColorNav;
             iconFb.style.marginTop = 30 + "px";
             changeLog.style.marginTop = 27 + "px";
@@ -76,6 +76,32 @@ const windowInformation = () => {
         }
 
 };
+const informationJoin = () => {
+    const gtaVInf = document.querySelector('.buyGta');
+    const altInf = document.querySelector('.downoaldAlt');
+    const forumInf = document.querySelector('.joinGodFather');
+    let posInf = window.pageYOffset;
+    console.log(posInf);
+        if(posInf > 816) {
+            gtaVInf.style.display = 'none';
+        }
+        if(posInf > 1100) {
+            gtaVInf.style.display = 'block';
+        }
+        if(posInf > 816) {
+            altInf.style.display = 'none';
+        }
+        if(posInf > 1100) {
+            altInf.style.display = 'block';
+        }
+        if(posInf > 816) {
+            forumInf.style.display = 'none';
+        }
+        if(posInf > 1100) {
+            forumInf.style.display = 'block';
+        }
+
+};
 
 
 
@@ -83,3 +109,4 @@ const windowInformation = () => {
 window.addEventListener('scroll', scrollNav);
 window.addEventListener('scroll', windowScroll);
 window.addEventListener('scroll', windowInformation);
+window.addEventListener('scroll', informationJoin);

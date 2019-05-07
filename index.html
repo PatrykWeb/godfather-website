@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pyamid.pl</title>
+    <title>The Godfather - roleplay server.</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
     <script src="https://cdn.rawgit.com/mattboldt/typed.js/master/lib/typed.min.js"></script>
@@ -15,6 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,6 +24,17 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <header>
+        <div class="preloader">
+                <img src="img/logopreloader.png">
+                <div class="whiteRight"></div>
+                <div class="whiteMiddleRight"></div>
+                <div class="whiteMiddle"></div>
+                <div class="whiteLeft"></div>
+                <div class="whiteLine"></div>
+                
+            
+            </div>
+
     <div class="container-menu">
         <nav id = "animateNav">
                 <a class="home" href="http://pyamid.pl/">
@@ -39,16 +51,13 @@
                         </a>
                         <a class="status" href="https://servers.fivem.net/#/servers/detail/54.36.185.228:30120">
                                 STATUS SERVERA
-                                <span class="label" id = "labelOnline">Online</span>
+                                <span class="label" id = "labelOnline">0/500</span>
                             </a>
                             <i class="fa fa-gamepad" style="font-size:19px"></i>
                             <a class="icon-fb" href="https://www.facebook.com/Pyamid-RolePlay-334677680609813/"><i class="fa fa-facebook" style="font-size:20px"></i></a>
                             <div class="logo">
-                                <img class="logo-img" src="img/pyamid_mikolaj.png" alt="logo">
+                                <img class="logo-img" src="img/logonew.png" alt="logo">
                             </div>
-                            <button id="change-log">
-                                <p>Zmiany</p>
-                            </button>
             </nav>
         </div>
 
@@ -56,7 +65,7 @@
 
 </header>
     <div class="write-box animated bounceInLeft">
-        <h6>PYAMID.PL</h6>
+        <h6>The Godfather</h6>
 
         <div id="typed-strings">
             <p><p class="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eligendi esse est natus nisi reiciendis rem voluptatibus. Asperiores deserunt ea enim fugiat minima minus odit perspiciatis provident quod ut. Impedit?</p>
@@ -74,6 +83,7 @@
 
 <body>
 
+
     <section>
         <video autoplay muted loop id="videoBackg">
                 <source src="video/trailer.mp4" type="video/mp4">
@@ -81,8 +91,8 @@
     </section>
 
     <div class="games-section">
-        <h3>PYAMID</h3>
-        <p>Dołącz do społeczności <span>pyamid</span> i ciesz się rozgrywką w innowacyjnym środowisku.</p>
+        <h3>GODFATHER</h3>
+        <p>Dołącz do społeczności <span>GF'a</span> i ciesz się rozgrywką w innowacyjnym środowisku.</p>
     </div>
     <div class="border-gamesSection"></div>
     <div class="arrowPush">
@@ -134,6 +144,30 @@
             </div>
         </div>
  </div>
+                <div class="connect3steps">
+                    <h1>ROZPOCZĘCIE GRY</h1>
+                    <!-- <div class="dotgrey1"></div>
+                    <div class="dotgrey2"></div>
+                    <div class="dotgrey3"></div> -->
+                    <div class="borderConnect"></div>
+                    <p>TRZY PROSTE KROKI I JESTEŚ GOTOWY DO  GRANIA NA GF:RP.</p>
+                    <div class="buyGta animated bounceInLeft delay-0.9s">
+                        <h1>GTA V</h1>
+                        <p1>Aby zagrać na naszym serwerze,<br> wymagana jest legalna wersja gry.</p1>
+                        <img src="img/logoBuyGta.png">
+                    </div>
+                    <div class="downoaldAlt animated bounceInUp delay-0.9s">
+                        <h1>ALT:V</h1>
+                        <p1>Rozwijamy sie na ,<br> nowo powstającej platformie.</p1>
+                        <svg height="115px" preserveaspectratio="xMidYMid meet" viewbox="0 0 620 500" width="150px" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.123,0.449 L311.006,540.176 L621.889,0.449 L207.648,0.449 L311.006,180.718 L362.820,91.483 L465.908,91.483 L311.006,359.548 L104.020,0.449 L0.123,0.449 Z" fill="rgb(255, 255, 255)" fill-rule="evenodd"></path></svg>
+                    </div>
+                    <div class="joinGodFather animated bounceInRight delay-0.9s">
+                        <h1>Forum</h1>
+                        <p1>Posiadamy swoje forum na IPS<br> dołącz do nas!</p1>
+                        <img src="img/Logobiałe - discord.png">
+                    </div>
+                </div>
 
 
     <script>
@@ -146,10 +180,12 @@
             });
 
         </script>
+        <script src="js/preloader.js"></script>
         <script src="js/slider.js"></script>
         <script src="js/arrow.js"></script>
         <script src="js/animate.js"></script>
-        <script src="js/changelog.js"></script>
+        <script src="js/connectGF.js"></script>
+        
 </body>
 </div>
 </html>
